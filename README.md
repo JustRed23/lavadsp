@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/natanbc/lavadsp.svg)](https://jitpack.io/#natanbc/lavadsp)
+[![](https://jitpack.io/v/JustRed23/lavadsp.svg)](https://jitpack.io/#JustRed23/lavadsp)
 
 # lavadsp
 
@@ -22,7 +22,7 @@ Replace `VERSION` with the version you want to use. The latest version can be fo
 
 <dependencies>
     <dependency>
-        <groupId>com.github.natanbc</groupId>
+        <groupId>com.github.JustRed23</groupId>
         <artifactId>lavadsp</artifactId>
         <version>VERSION</version>
     </dependency>
@@ -37,7 +37,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.natanbc:lavadsp:VERSION'
+    compile 'com.github.JustRed23:lavadsp:VERSION'
 }
 ```
 
