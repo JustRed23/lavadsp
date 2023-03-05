@@ -19,6 +19,7 @@ repositories {
 dependencies {
     implementation 'org.slf4j:slf4j-api:2.0.6'
     implementation 'com.github.natanbc:native-loader:0.7.0'
+    implementation "com.github.JustRed23:lavadsp-natives:${versionObj}"
     compileOnly 'com.github.walkyst:lavaplayer-fork:1.4.0'
 }
 
