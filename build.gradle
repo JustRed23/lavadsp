@@ -6,7 +6,7 @@ plugins {
 def versionObj = new Version(major: 0, minor: 7, revision: 7)
 
 group 'com.github.natanbc'
-version "${versionObj}"
+version "${versionObj}-1"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -19,7 +19,7 @@ repositories {
 dependencies {
     implementation 'org.slf4j:slf4j-api:2.0.6'
     implementation 'com.github.natanbc:native-loader:0.7.0'
-    implementation "com.github.JustRed23:lavadsp-natives:${versionObj}"
+    implementation "com.github.JustRed23:lavadsp-natives:${versionObj}-1"
     compileOnly 'com.github.walkyst:lavaplayer-fork:1.4.0'
 }
 
