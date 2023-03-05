@@ -1,4 +1,4 @@
-[ ![Download](https://api.bintray.com/packages/natanbc/maven/lavadsp/images/download.svg) ](https://bintray.com/natanbc/maven/lavadsp/_latestVersion)
+[![](https://jitpack.io/v/natanbc/lavadsp.svg)](https://jitpack.io/#natanbc/lavadsp)
 
 # lavadsp
 
@@ -15,9 +15,8 @@ Replace `VERSION` with the version you want to use. The latest version can be fo
 ```xml
 <repositories>
     <repository>
-        <id>jcenter</id>
-        <name>jcenter</name>
-        <url>http://jcenter.bintray.com/</url>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
     </repository>
 </repositories>
 
@@ -34,7 +33,7 @@ Replace `VERSION` with the version you want to use. The latest version can be fo
 
 ```gradle
 repositories {
-    jcenter()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
